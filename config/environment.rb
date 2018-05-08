@@ -8,6 +8,7 @@ ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
   :database => "db/shows.sqlite"
 )
+
 DBNAME = "tvshows"
 
 
