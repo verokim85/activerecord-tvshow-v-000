@@ -22,7 +22,7 @@ class Show < ActiveRecord::Base
 
   def self.least_popular_show
     self.lowest_rating
-    
+
   end
 
   def self.popular_shows
