@@ -21,7 +21,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.least_popular_show
-p    self.lowest_rating
+
 
   end
 
