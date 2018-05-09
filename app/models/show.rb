@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.lowest_rating
-    self.minimum(:rating)
+    self.minimum.order(rating: :desc)
   end
 
   def self.ratings_sum
