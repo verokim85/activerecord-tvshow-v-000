@@ -17,15 +17,15 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-    self.where(self.highest_rating)
+    self.where(self.highest_rating).first
   end
 
   # def.self.least_popular_show
-  # 
+  #
   # end
-  # 
+  #
   # def.popular_shows
-  # 
+  #
   # end
 
 end
