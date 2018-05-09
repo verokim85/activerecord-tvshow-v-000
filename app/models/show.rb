@@ -20,12 +20,12 @@ class Show < ActiveRecord::Base
     self.where(self.highest_rating).first
   end
 
-  # def.self.least_popular_show
-  #
-  # end
-  #
-  # def.popular_shows
-  #
-  # end
+  def.self.least_popular_show
+
+  end
+
+  def.popular_shows
+    self.where(self.highest_rating)
+  end
 
 end
