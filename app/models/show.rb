@@ -15,4 +15,17 @@ class Show < ActiveRecord::Base
   def self.shows_by_alphabetical_order
     self.order(name: :asc)
   end
+
+  def self.most_popular_show
+
+  end 
+
+  def.self.least_popular_show
+
+  end 
+
+  def.popular_shows
+
+  end
+   
 end
