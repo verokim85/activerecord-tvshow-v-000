@@ -17,15 +17,15 @@ class Show < ActiveRecord::Base
   end
 
   def self.most_popular_show
-
-  end 
+    self.where("orders_count = ?", params[:highest_rating])
+  end
 
   def.self.least_popular_show
 
-  end 
+  end
 
   def.popular_shows
 
   end
-   
+
 end
